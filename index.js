@@ -18,13 +18,13 @@ const newCard = ({ id, imageUrl, taskTitle, taskDescription, taskType }) =>
     <img src=${imageUrl}
      class="card-img-top" alt="...">
     <div class="card-body rounded">
-        <h5 class="card-title">${taskTitle}</h5>
-        <p class="card-text">${taskDescription}
+        <h5 class="card-title d-flex justify-content-center">${taskTitle}</h5>
+        <p class="card-text d-flex justify-content-center text-center">${taskDescription}
         </p>
-        <span class="badge bg-primary">${taskType}</span>
+        <span class="badge bg-primary d-flex justify-content-center ">${taskType}</span>
     </div>
-    <div class="card-footer text-muted ">
-        <button type="button"  id=${id} class="btn btn-outline-primary float-end d-flex align-items-start">Open Task</button>
+    <div class="card-footer text-muted  d-flex justify-content-end">
+        <button type="button"  id=${id} class="btn btn-outline-primary float-end  ">Open Task</button>
     </div>
 </div>
 </div>`;
