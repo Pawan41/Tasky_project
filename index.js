@@ -24,7 +24,7 @@ const newCard = ({ id, imageUrl, taskTitle, taskDescription, taskType }) =>
         <span class="badge bg-primary">${taskType}</span>
     </div>
     <div class="card-footer text-muted ">
-        <button type="button"  id=${id} class="btn btn-outline-primary float-end">Open Task</button>
+        <button type="button"  id=${id} class="btn btn-outline-primary float-end d-flex align-items-start">Open Task</button>
     </div>
 </div>
 </div>`;
